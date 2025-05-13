@@ -6,8 +6,6 @@ import { ShopUseContext } from './ShopUseContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ShopProvider>
-      <ShopUseContext />
-    </ShopProvider>
+    <ShopUseContext />
   </StrictMode>,
 )

@@ -27,3 +27,11 @@
         margin-right: 10px    
     }
 }
+.cartItem{
+    margin-bottom: 20px ;
+    & img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover 
+    }
+}

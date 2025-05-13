@@ -15,6 +15,7 @@ const Store = () => {
   const handleAddToCart = (producto) => {
     const quantity = quantities[producto.id] || 1
     const existingProduct = carrito.find((item) => item.id === producto.id)
+
     if (existingProduct) {
       setCarrito(
         carrito.map((item) =>
