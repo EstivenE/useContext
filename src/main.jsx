@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import './styles/style.css'
+import { ShopProvider } from './context/ShopContext.jsx'
+import { ShopUseContext } from './ShopUseContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <ShopProvider>
+      <ShopUseContext />
+    </ShopProvider>
   </StrictMode>,
 )

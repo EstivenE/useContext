@@ -1,8 +1,11 @@
 import React from 'react'
-import {shopProvider }
 
-export const Store = () => {
+const Store = () => {
   return (
-    <div>Store</div>
+    <div>
+      asdfasd
+    </div>
   )
 }
+
+export default Store
