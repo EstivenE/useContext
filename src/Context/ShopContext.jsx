@@ -53,10 +53,11 @@ export const ShopProvider= ({children})=>{
         <Shopcntx.Provider value={{
             productos,
             carrito,
+            setCarrito
         }}>
             {children}
         </Shopcntx.Provider>
     )
 }
 
-export const useShopContext = () =>useContext(ShopContext)
+export const useShopContext = () =>useContext(Shopcntx)
